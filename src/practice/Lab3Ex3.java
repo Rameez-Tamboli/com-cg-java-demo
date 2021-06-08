@@ -9,7 +9,7 @@ public class Lab3Ex3 {
 			String initial, rev = "";
 			@SuppressWarnings("resource")
 			Scanner s = new Scanner(System.in);
-			System.out.println("Enter the string to reverse");
+			System.out.println("E to reverse");
 			initial = s.nextLine();
 			int length = initial.length();
 			for (int i = length - 1; i >= 0; i--)
