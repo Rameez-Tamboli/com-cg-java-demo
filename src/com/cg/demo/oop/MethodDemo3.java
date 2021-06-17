@@ -9,7 +9,7 @@ public class MethodDemo3 {
 			
 			System.out.println("Start");
 			anythig(10,20);
-			anythig()30.55;
+			anythig(30,55);
 
 			System.out.println("End"); 
 			

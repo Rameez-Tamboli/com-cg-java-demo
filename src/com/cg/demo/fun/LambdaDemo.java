@@ -38,8 +38,10 @@ public class LambdaDemo {
 	//	MyInt obj = (int i) -> System.out.println("absMethod " + i);
 
 		obj.absMethod();
+	 
 //		obj.absMethod(10);
 
-	}
+	 
+}
 }
 }

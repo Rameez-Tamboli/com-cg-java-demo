@@ -20,7 +20,7 @@ public class SwitchDemo {
 				case 3:
 					System.out.println("three");
 				break;
-				default:"other valu
+				default:
 					System.out.println("other value");
 					
 			}

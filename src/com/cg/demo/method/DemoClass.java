@@ -6,7 +6,7 @@ public class DemoClass {
 	public int publicField=10;
 	protected int ProtectedFeild=20;
 	int packagefield =30;
-	private int privateField = 40;
+	int privateField = 40;
 	
 	public static void main(String[] args) {
 		
