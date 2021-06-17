@@ -2,6 +2,7 @@ package com.cg.demo.conc;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
+import java.util.concurrent.ScheduledExecutorService;
 
 public class ExPatDemo implements Runnable {
 
@@ -24,8 +25,21 @@ public class ExPatDemo implements Runnable {
 		// 2. using newCachedThreadPool() method
 		// creates a thread pool that creates new threads as needed but will reuse
 		// previously constructed threads when they are available.
-		
-		ExecutorService exService = Executors.newCachedThreadPool();
+
+//		ExecutorService exService = Executors.newCachedThreadPool();
+
+		// 3. using newFixedThreadPool() method
+		// Creates a thread pool that reuses a fixed number of threadsoperating off a
+		// shared unbounded queue.
+
+//		ExecutorService exService = Executors.newFixedThreadPool(3);
+
+		// 4. using newScheduledThreadPool() method
+		// Creates a thread pool that can schedule commands to run after agiven delay,
+		// or to execute periodically.
+
+		ExecutorService exService = Executors.newScheduledThreadPool(3);
+//		ScheduledExecutorService exService = Executors.newScheduledThreadPool(3);
 
 		for (int i = 1; i <= 10; i++) {
 			exService.execute(exp);
