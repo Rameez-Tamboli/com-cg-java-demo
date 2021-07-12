@@ -7,5 +7,6 @@
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="lib" path="C:/Users/tambo/Desktop/CG/java/slf4j.jar"/>
+	<classpathentry kind="lib" path="C:/Users/tambo/Downloads/postgresql-42.2.22.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

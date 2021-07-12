@@ -7,9 +7,14 @@ public class CheckedUnckeckedTest {
 
 		System.out.println("Start");
 
-// 		System.out.println(0 / 0); // ArithmeticException - unchecked exception 
+// 		System.out.println(0 / 0); // ArithmeticException - unchecked 
 
-//		Thread.sleep(1000); // InterruptedException - checked exception 
+		try {
+			Thread.sleep(1000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} // InterruptedException - checked exception 
 
 		System.out.println("End");
 	}

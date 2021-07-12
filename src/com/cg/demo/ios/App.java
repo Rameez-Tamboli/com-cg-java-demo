@@ -1,4 +1,4 @@
-Package com.cg.demo.ios;
+package com.cg.demo.ios;
 
 import java.util.Scanner;
 
